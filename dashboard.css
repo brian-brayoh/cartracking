@@ -1,0 +1,93 @@
+/* style.css */
+
+/* Set the background color for the whole page */
+body {
+    background-color: lightblue;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    background-color:
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* Define styles for the individual sections */
+.home {
+    background-color: red;
+}
+
+#cardetails {
+    background-color: lightblue;
+}
+
+#assignedarea {
+    background-color: lightblue;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color:100;
+    color: #fff;
+    padding: 100px;
+    width: 200px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    color: blue;
+    text-decoration: none;
+}
+
+.content {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+/* Add icons to the sidebar links */
+.sidebar a[href="#home"]::before {
+    content: "\f015";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 10px;
+}
+
+.sidebar a[href="#cardetails"]::before {
+    content: "\f1b9";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 10px;
+}
+
+.sidebar a[href="#assignedarea"]::before {
+    content: "\f041";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 10px;
+}
